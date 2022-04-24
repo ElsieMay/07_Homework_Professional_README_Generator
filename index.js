@@ -1,6 +1,9 @@
 //node modules
 const inquirer = require("inquirer");
 const fs = require("fs");
+//variable to connect modules with application
+const generateReadMe = require("./generateReadMe");
+const licenseBadges = require("./licenseBadges");
 
 // Uses inquirer to generate questions
 const promptUser = () => {
@@ -53,3 +56,17 @@ const promptUser = () => {
 		},
 	]);
 };
+// function to initialize program and create README file
+async function init() {
+	try {
+		const answers = await promptUser();
+		data.licenseBadges = licenseBadges(data.license);
+		let readMeData = generateReadMe(data);
+		await writeFileAsync("created-README.md", readMeData);
+		console.log("✔️  Successfully wrote to README.md");
+	} catch (err) {
+		throw err;
+	}
+}
+
+init();
