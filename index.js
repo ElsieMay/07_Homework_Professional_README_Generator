@@ -36,5 +36,20 @@ const promptUser = () => {
 			message: "Choose license type used for this project from the list provided.",
 			choices: ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla", "MIT", "Apache", "Boost"],
 		},
+		{
+			type: "input",
+			name: "tests",
+			message: "Please list any testing protocols you used in this project.",
+		},
+		{
+			type: "input",
+			name: "userName",
+			message: "What is your GitHub username?",
+		},
+		{
+			type: "input",
+			name: "email",
+			message: "What is your email address?",
+		},
 	]);
 };
