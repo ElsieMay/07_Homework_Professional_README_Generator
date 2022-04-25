@@ -23,7 +23,7 @@ const promptUser = () => {
 		{
 			type: "input",
 			name: "installation",
-			message: "What are the steps required to install your project?",
+			message: "What command should be run to install dependancies?",
 		},
 		{
 			type: "input",
@@ -64,7 +64,7 @@ async function init() {
 		const data = await promptUser();
 		data.licenseBadges = licenseBadges(data.license);
 		let readMeData = generateReadMe(data);
-		await writeFileAsync("created-README.md", readMeData);
+		await writeFileAsync("README.md", readMeData);
 		console.log("✔️  Successfully wrote to README.md");
 	} catch (err) {
 		throw err;

@@ -1,42 +1,40 @@
 const generateReadMe = (data) =>
-	`<h1 align="center">${data.title}</h1>
+	`
+<h1 align="center">${data.title}</h1>
 
-    ## Description
-   ${data.description}
+## Description
+${data.description}
 
-   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+${data.licenseBadges}
 
-   --
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    - [Contributions](#contributions)
+## Installation
+To install necessary dependancies, run the following command:<br>
+<mark>${data.installation}</mark>
 
-    --
+## Usage
+${data.usage}
 
-    ## Installation
-    ${data.installation}
+## Contributing
+${data.contributing}
 
-    ## Usage
-    ${data.usage}
+## License
+This application is licensed under the ${data.license} license.
 
-    ## Contributing
-    ${data.contributing}
+## Tests
+To run tests, please use the following command:<br>
+<mark>${data.tests}</mark>
 
-    ## License
-    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
-    This application is protected by ${data.license} license.
-
-    ## Tests
-    ${data.tests}
-
-    ## Questions
-    *GitHub Username: [${data.userName}](https://github.com/${data.userName})
-    *Please feel free to reach out to me with any questions. My email address is: ${data.email}
+## Questions
+Issues can be reported through my github or email address below.<br>
+***GitHub Username: ${data.userName} <https://github.com/${data.userName}>.***<br>
+***Please feel free to reach out to me with any questions. My email address is: ${data.email}.***
 `;
 module.exports = generateReadMe;
