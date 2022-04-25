@@ -1,9 +1,11 @@
 //node modules
 const inquirer = require("inquirer");
 const fs = require("fs");
+const util = require("util");
 //variable to connect modules with application
 const generateReadMe = require("./generateReadMe");
 const licenseBadges = require("./licenseBadges");
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // Uses inquirer to generate questions
 const promptUser = () => {
@@ -59,7 +61,7 @@ const promptUser = () => {
 // function to initialize program and create README file
 async function init() {
 	try {
-		const answers = await promptUser();
+		const data = await promptUser();
 		data.licenseBadges = licenseBadges(data.license);
 		let readMeData = generateReadMe(data);
 		await writeFileAsync("created-README.md", readMeData);
