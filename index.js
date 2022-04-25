@@ -33,7 +33,7 @@ const promptUser = () => {
 		{
 			type: "input",
 			name: "contributing",
-			message: "Who are the contributors of this projects?",
+			message: "What does the user need to know about contributing to the project?",
 		},
 		{
 			type: "list",
@@ -44,7 +44,7 @@ const promptUser = () => {
 		{
 			type: "input",
 			name: "tests",
-			message: "Please list any testing protocols you used in this project.",
+			message: "What command should be used to run tests?",
 		},
 		{
 			type: "input",

@@ -2,7 +2,11 @@ const generateReadMe = (data) =>
 	`<h1 align="center">${data.title}</h1>
 
     ## Description
-    ${data.description}
+   ${data.description}
+
+   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+
+   --
 
     ## Table of Contents
     - [Installation](#installation)
@@ -11,6 +15,9 @@ const generateReadMe = (data) =>
     - [License](#license)
     - [Tests](#tests)
     - [Questions](#questions)
+    - [Contributions](#contributions)
+
+    --
 
     ## Installation
     ${data.installation}
@@ -29,7 +36,6 @@ const generateReadMe = (data) =>
     ${data.tests}
 
     ## Questions
-    ${data.questions}
     *GitHub Username: [${data.userName}](https://github.com/${data.userName})
     *Please feel free to reach out to me with any questions. My email address is: ${data.email}
 `;
