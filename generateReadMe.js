@@ -1,4 +1,4 @@
-const generateReadMe = ({ data }) =>
+const generateReadMe = (data) =>
 	`<h1 align="center">${data.title}</h1>
 
     ## Description
@@ -33,3 +33,4 @@ const generateReadMe = ({ data }) =>
     *GitHub Username: [${data.userName}](https://github.com/${data.userName})
     *Please feel free to reach out to me with any questions. My email address is: ${data.email}
 `;
+module.exports = generateReadMe;

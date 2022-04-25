@@ -15,3 +15,4 @@ const licenseBadges = (value) => {
 		return "[![License: Boost](https://img.shields.io/badge/license-Boost-orange)](https://www.boost.org/users/license.html)";
 	}
 };
+module.exports = licenseBadges;
