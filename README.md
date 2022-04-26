@@ -23,7 +23,7 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/0
 
 Run node index.js and answer prompts to create a README.md file.
 
-![Screenshots](https://github.com/ElsieMay/05_Homework_Work_Day_Scheduler/blob/main/Develop/images/Screen%20Shot%202022-03-23%20at%2010.43.18%20pm.png)
+![Demo]<https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Recording%202022-04-25%20at%207.32.58%20pm.mov>
 
 ## Credits
 
