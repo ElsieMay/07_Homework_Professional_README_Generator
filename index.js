@@ -64,7 +64,7 @@ async function init() {
 		const data = await promptUser();
 		data.licenseBadges = licenseBadges(data.license);
 		let readMeData = generateReadMe(data);
-		await writeFileAsync("README.md", readMeData);
+		await writeFileAsync("EXAMPLEREADME.md", readMeData);
 		console.log("✔️  Successfully wrote to README.md");
 	} catch (err) {
 		throw err;
