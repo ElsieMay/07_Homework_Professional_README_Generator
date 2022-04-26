@@ -23,7 +23,7 @@ The Github repository can be viewed via this link, https://github.com/ElsieMay/0
 
 Run node index.js and answer prompts to create a README.md file.
 
-![Demo]<https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/ezgif.com-gif-maker.gif>
+![Demo](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/ezgif.com-gif-maker.gif)
 
 ## Credits
 
