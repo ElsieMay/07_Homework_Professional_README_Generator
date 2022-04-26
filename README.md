@@ -4,7 +4,7 @@
 
 The motivation for this project was to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-I learnt about using node.js, Inquirer, file system, command line, markdowns and much more.
+I learnt about using node js, Inquirer, file system, command line, markdowns and much more.
 
 ## Table of Contents
 
