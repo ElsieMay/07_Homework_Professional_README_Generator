@@ -25,6 +25,16 @@ Run node index.js and answer prompts to create a README.md file.
 
 ![Demo](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen-Recording-2022-04-25-at-7.32.58-pm.gif)
 
+![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.29.05%20pm.png)
+
+![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.29.35%20pm.png)
+
+![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.29.56%20pm.png)
+
+![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.30.22%20pm.png)
+
+![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.30.36%20pm.png)
+
 ## Credits
 
 I was aided by the BCS Learning assistant. They instructed me well.
