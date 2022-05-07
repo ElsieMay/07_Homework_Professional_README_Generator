@@ -25,6 +25,8 @@ Run node index.js and answer prompts to create a README.md file.
 
 ![Demo](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Recording%202022-04-25%20at%207.32.58%20pm.gif)
 
+Link to video: https://drive.google.com/file/d/1UshawoHUDM6coO4uEF7uzWDQDRt5cNlG/view
+
 ![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.29.05%20pm.png)
 
 ![Screenshot](https://github.com/ElsieMay/07_Homework_Professional_README_Generator/blob/main/images/Screen%20Shot%202022-04-26%20at%2010.29.35%20pm.png)
